@@ -1,0 +1,80 @@
+
+
+1 This program will print a string forward, then utilizing the stack, print it in reverse. Pass Length of string in below variable if modifying
+0 Initialize X
+14
+1 
+-1
+16
+1
+5 Load Length into AC ~~~~LENGTH OF YOUR STRING GOES HERE ~~~~~
+11
+16
+13 Fix offset on Y
+20
+30
+
+.30 Print string forward
+23
+100 Print the character at given index and return character for pushing
+27 Push return onto stack
+17 AC = Y
+12 AC = Y - X
+21
+300
+25 Increment X
+20
+30
+
+
+.100 Print character, returns char in AC
+4 
+150
+9
+2
+24
+
+.150 Data String
+78 N
+85 U
+82 R
+83 S
+69 E
+
+.300 Prints a new line and prepares reverse printing
+1
+10
+9
+2
+17
+14
+25
+20
+310
+
+.310 Prints string in reverse while len > 0
+21
+350
+28
+9
+2
+26
+15
+20
+310
+20
+350
+
+.350 Program End
+1
+10
+9
+2
+50
+
+.1000 Timer does nothing
+30
+
+
+
+
